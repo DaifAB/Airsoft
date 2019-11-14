@@ -1,0 +1,134 @@
+<html>
+<head>
+	<title>Association Nationale d'Airsoft</title>
+	<link rel="icon" type="image/png" href="images/Sans titre 1.png" \>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+	<link rel="stylesheet" type="text/css" href="pagediv.css">
+	<script type="text/javascript" ></script>
+	
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li> <img src="images/ana.png" width="200" height="52"></li>
+		<li><a href="acceuil.html" >ACCEUIL</a></li>
+		<li class="dropdown">
+		<a href="#" class="dropbtn">A PROPOS</a>
+		 <div class="dropdown-content">
+         <a href="main.html">C'est quoi Airsoft ?</a>
+         <a href="about.html">Qui sommes-nous ?</a>         
+         </div>
+		 </li>
+		<li><a href="recrutement.html" >RECRUTEMENT</a></li>
+		<li><a href="boutique.html" >BOUTIQUE</a></li>
+		<li><a href="wararea.html"  >ZONE DE GUERRE</a></li>
+		<li style="float: right"><a href="donation.html" >DONATIONS</a></li>
+		
+	</ul>
+</nav>
+<div class="class1">
+	
+</div>
+<div class="class2">
+	<div class="logo" align="center">
+		<img src="images/logo.png"  style="box-shadow: 3px 4px 4px rgba(0, 0, 0, .5);max-width: 100%; height: auto;">
+	</div>
+	<br>
+	<div class="vid" align="center">
+		<div class="video">
+			<video src="videos/Airsoft.mp4" width="500px" height="280" controls style="box-shadow: 3px 4px 4px rgba(0, 0, 0, .5);" ></video>
+		</div>
+		
+		<div class="block">
+		<img src="images/boutslide.jpg" class="slides">
+		<img src="images/boutslide2.png" class="slides" >
+		<img src="images/boutslide3.png" class="slides" >
+		</div>
+		<script >
+		var slide = 0;
+		fslideshow();
+
+function fslideshow() {
+    var i;
+    var x = document.getElementsByClassName("slides");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.display = "none"; 
+    }
+    slide++;
+    if (slide > x.length) {slide = 1} 
+    x[slide-1].style.display = "block"; 
+    setTimeout(fslideshow, 2000);
+}
+	</script>
+		
+	</div>
+
+
+<p class="block2">
+
+Et alors ?<br>
+Que Pensez-vous ?<br>
+ça envoie du lourd ! non ?<br>
+Et bah rejoignez-nous ! C'est par <a href="recrutement.html">ici</a>.<br>
+Et pour plus d'information n'hesiter pas à visiter la rubrique <a href="recrutement.html"> Recrutement</a>
+
+</p>
+</div>
+<div class="class3">
+	
+</div>
+<div class="clear" style="clear:both"></div>
+
+
+<footer>
+<div class="foot1">
+	<ul>
+	<li class="acc">Acces rapide:</li>
+	<li><a href="acceuil.html" >ACCEUIL</a></li>
+    <li> <a href="main.html">C'est quoi Airsoft ?</a></li>
+    <li> <a href="about.html">Qui sommes-nous ?</a></li>        
+	<li><a href="recrutement.html" >RECRUTEMENT</a></li>
+	<li><a href="boutique.html" >BOUTIQUE</a></li>
+	<li><a href="wararea.html"  >ZONE DE GUERRE</a></li>
+	<li><a href="donation.html" >DONATIONS</a></li>
+	</ul>
+</div>
+<div class="foot2">
+	Partenariats:
+	<center><table>
+		<tr>
+			<td><img src="images/par1.png"></td>
+			<td><img src="images/par2.png"></td>
+			<td><img src="images/par3.png"></td>
+		</tr>
+		<tr>
+			<td><img src="images/par4.png"></td>
+			<td><img src="images/par5.png"></td>
+			<td><img src="images/par6.png"></td>
+		</tr>
+	</table></center>
+	
+</div>
+<div class="foot3">
+	Contactez-nous:
+	<center><table>
+		<tr>
+			<td><img src="images/telephone.png" height="30" width="30"></td><td>(+212)5 24 68 49 52</td>
+			</tr>
+		<tr>
+			<td><img src="images/face.png" height="45" width="60"></td><td>www.facebook.com/ana</td>
+		</tr>
+		<tr>
+			<td><img src="images/mail.png" height="20" width="35"></td><td>ana.airsoft@gmail.com</td>
+		</tr>
+	</table></center>	
+</div>
+<div class="foot4">
+<center><table><tr><td><img src="images/copy.png"></td><td>© 2016 Association Nationale d'Airsoft. Tous droits réservés.</td></tr></table></center>
+	
+</div>
+</footer>
+
+</body>
+</html>

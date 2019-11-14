@@ -1,0 +1,66 @@
+nav{
+	height: 50px;
+}
+
+
+
+.class1{
+	
+	width: 10%;
+	height: 1500px;
+	float: left;
+	
+
+
+}
+ .class2{
+	
+    width:  80%;
+    float: left;
+    height: 1500px;
+    
+}
+.class3{
+	
+    width:  10% ;
+    float: left;
+    height:1500px;
+}
+   
+
+ footer{
+	height: 300px;
+	width: 100%;
+	float: left;
+	background : #010005;
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+
+.foot1, .foot2 ,.foot3
+{
+	position: relative;
+	
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+.foot4{
+	display: inline-block;
+	width: 100%;
+	
+}
+.video,.block{
+	height: 281px;
+	width: 50%;
+	float: left;
+	display: inline;
+}
+
+
+}
+.block2{
+	float: left;
+	width: 100%;
+}
